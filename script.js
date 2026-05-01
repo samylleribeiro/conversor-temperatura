@@ -44,7 +44,7 @@ let texto = "";
    let f = (num-273.15)*9/5+32
    texto = `${num} K equivalem a ${f.toFixed(2)}°F`
  }
- else   {
+ else if (tipo === "k-c-f" )  {
    let c = num-273.15
    let f = (num-273.15)*9/5+32
    texto = `${num}K equivalem a ${c.toFixed(2)}°C e ${f.toFixed(2)}F`
